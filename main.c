@@ -1,0 +1,234 @@
+/*
+ * main.c
+ *
+ *  Created on: 11.04.2019
+ *      Author: gent_ci
+ */
+#include "testcases.h"
+
+int main(int argc, char **argv) {
+
+	CWE121_Stack_Based_Buffer_Overflow__CWE129_connect_socket_01_bad();
+	CWE121_Stack_Based_Buffer_Overflow__CWE129_connect_socket_01_good();
+
+	CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_01_bad();
+	CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_01_good();
+
+	CWE123_Write_What_Where_Condition__connect_socket_01_bad();
+	CWE123_Write_What_Where_Condition__connect_socket_01_good();
+
+	CWE124_Buffer_Underwrite__CWE839_fgets_01_bad();
+	CWE124_Buffer_Underwrite__CWE839_fgets_01_good();
+
+	CWE126_Buffer_Overread__CWE129_fscanf_01_bad();
+	CWE126_Buffer_Overread__CWE129_fscanf_01_good();
+
+	CWE127_Buffer_Underread__CWE839_listen_socket_01_bad();
+	CWE127_Buffer_Underread__CWE839_listen_socket_01_good();
+
+	CWE134_Uncontrolled_Format_String__char_connect_socket_fprintf_01_bad();
+	CWE134_Uncontrolled_Format_String__char_connect_socket_fprintf_01_good();
+
+	CWE188_Reliance_on_Data_Memory_Layout__modify_local_01_bad();
+	CWE188_Reliance_on_Data_Memory_Layout__modify_local_01_good();
+
+	CWE190_Integer_Overflow__char_fscanf_add_01_bad();
+	CWE190_Integer_Overflow__char_fscanf_add_01_good();
+
+	CWE191_Integer_Underflow__char_fscanf_multiply_01_bad();
+	CWE191_Integer_Underflow__char_fscanf_multiply_01_good();
+
+	CWE194_Unexpected_Sign_Extension__connect_socket_malloc_01_bad();
+	CWE194_Unexpected_Sign_Extension__connect_socket_malloc_01_good();
+
+	CWE195_Signed_to_Unsigned_Conversion_Error__connect_socket_memcpy_01_bad();
+	CWE195_Signed_to_Unsigned_Conversion_Error__connect_socket_memcpy_01_good();
+
+	CWE196_Unsigned_to_Signed_Conversion_Error__basic_01_bad();
+	CWE196_Unsigned_to_Signed_Conversion_Error__basic_01_good();
+
+	CWE197_Numeric_Truncation_Error__int_fgets_to_short_01_bad();
+	CWE197_Numeric_Truncation_Error__int_fgets_to_short_01_good();
+
+	CWE252_Unchecked_Return_Value__char_fread_01_bad();
+	CWE252_Unchecked_Return_Value__char_fread_01_good();
+
+	CWE253_Incorrect_Check_of_Function_Return_Value__char_fwrite_01_bad();
+	CWE253_Incorrect_Check_of_Function_Return_Value__char_fwrite_01_good();
+
+	CWE364_Signal_Handler_Race_Condition__basic_01_bad();
+	CWE364_Signal_Handler_Race_Condition__basic_01_good();
+
+	CWE366_Race_Condition_Within_Thread__global_int_01_bad();
+	CWE366_Race_Condition_Within_Thread__global_int_01_good();
+
+	CWE367_TOC_TOU__access_01_bad();
+	CWE367_TOC_TOU__access_01_good();
+
+	CWE369_Divide_by_Zero__float_rand_01_bad();
+	CWE369_Divide_by_Zero__float_rand_01_good();
+
+	CWE377_Insecure_Temporary_File__char_mktemp_01_bad();
+	CWE377_Insecure_Temporary_File__char_mktemp_01_good();
+
+	CWE391_Unchecked_Error_Condition__sqrt_01_bad();
+	CWE391_Unchecked_Error_Condition__sqrt_01_good();
+
+	CWE398_Poor_Code_Quality__addition_01_bad();
+	CWE398_Poor_Code_Quality__addition_01_good();
+
+	CWE400_Resource_Exhaustion__connect_socket_sleep_01_bad();
+	CWE400_Resource_Exhaustion__connect_socket_sleep_01_good();
+
+	CWE401_Memory_Leak__char_calloc_01_bad();
+	CWE401_Memory_Leak__char_calloc_01_good();
+
+	CWE404_Improper_Resource_Shutdown__open_fclose_01_bad();
+	CWE404_Improper_Resource_Shutdown__open_fclose_01_good();
+
+	CWE415_Double_Free__malloc_free_char_01_bad();
+	CWE415_Double_Free__malloc_free_char_01_good();
+
+	CWE416_Use_After_Free__malloc_free_char_01_bad();
+	CWE416_Use_After_Free__malloc_free_char_01_good();
+
+	CWE426_Untrusted_Search_Path__char_popen_01_bad();
+	CWE426_Untrusted_Search_Path__char_popen_01_good();
+
+	CWE427_Uncontrolled_Search_Path_Element__char_connect_socket_01_bad();
+	CWE427_Uncontrolled_Search_Path_Element__char_connect_socket_01_good();
+
+	CWE457_Use_of_Uninitialized_Variable__char_pointer_01_bad();
+	CWE457_Use_of_Uninitialized_Variable__char_pointer_01_good();
+
+	CWE459_Incomplete_Cleanup__char_01_bad();
+	CWE459_Incomplete_Cleanup__char_01_good();
+
+	CWE464_Addition_of_Data_Structure_Sentinel__basic_01_bad();
+	CWE464_Addition_of_Data_Structure_Sentinel__basic_01_good();
+
+	CWE467_Use_of_sizeof_on_Pointer_Type__char_01_bad();
+	CWE467_Use_of_sizeof_on_Pointer_Type__char_01_good();
+
+	CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01_bad();
+	CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01_good();
+
+	CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_01_bad();
+	CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_01_good();
+
+	CWE475_Undefined_Behavior_for_Input_to_API__char_01_bad();
+	CWE475_Undefined_Behavior_for_Input_to_API__char_01_good();
+
+	CWE476_NULL_Pointer_Dereference__binary_if_01_bad();
+	CWE476_NULL_Pointer_Dereference__binary_if_01_good();
+
+	CWE478_Missing_Default_Case_in_Switch__basic_01_bad();
+	CWE478_Missing_Default_Case_in_Switch__basic_01_good();
+
+	CWE479_Signal_Handler_Use_of_Non_Reentrant_Function__basic_01_bad();
+	CWE479_Signal_Handler_Use_of_Non_Reentrant_Function__basic_01_good();
+
+	CWE480_Use_of_Incorrect_Operator__basic_01_bad();
+	CWE480_Use_of_Incorrect_Operator__basic_01_good();
+
+	CWE481_Assigning_Instead_of_Comparing__basic_01_bad();
+	CWE481_Assigning_Instead_of_Comparing__basic_01_good();
+
+	CWE482_Comparing_Instead_of_Assigning__basic_01_bad();
+	CWE482_Comparing_Instead_of_Assigning__basic_01_good();
+
+	CWE483_Incorrect_Block_Delimitation__if_without_braces_multiple_lines_01_bad();
+	CWE483_Incorrect_Block_Delimitation__if_without_braces_multiple_lines_01_good();
+
+	CWE484_Omitted_Break_Statement_in_Switch__basic_01_bad();
+	CWE484_Omitted_Break_Statement_in_Switch__basic_01_good();
+
+	CWE546_Suspicious_Comment__BUG_01_bad();
+	CWE546_Suspicious_Comment__BUG_01_good();
+
+	CWE561_Dead_Code__return_before_code_01_bad();
+	CWE561_Dead_Code__return_before_code_01_good();
+
+	CWE562_Return_of_Stack_Variable_Address__return_buf_01_bad();
+	CWE562_Return_of_Stack_Variable_Address__return_buf_01_good();
+
+	CWE563_Unused_Variable__unused_global_value_01_bad();
+	CWE563_Unused_Variable__unused_global_value_01_good();
+
+	CWE570_Expression_Always_False__global_01_bad();
+	CWE570_Expression_Always_False__global_01_good();
+
+	CWE571_Expression_Always_True__global_01_bad();
+	CWE571_Expression_Always_True__global_01_good();
+
+	CWE587_Assignment_of_Fixed_Address_to_Pointer__basic_01_bad();
+	CWE587_Assignment_of_Fixed_Address_to_Pointer__basic_01_good();
+
+	CWE605_Multiple_Binds_Same_Port__basic_01_bad();
+	CWE605_Multiple_Binds_Same_Port__basic_01_good();
+
+	CWE606_Unchecked_Loop_Condition__char_console_01_bad();
+	CWE606_Unchecked_Loop_Condition__char_console_01_good();
+
+	CWE617_Reachable_Assertion__connect_socket_01_bad();
+	CWE617_Reachable_Assertion__connect_socket_01_good();
+
+	CWE665_Improper_Initialization__char_cat_01_bad();
+	CWE665_Improper_Initialization__char_cat_01_good();
+
+	CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_01_bad();
+	CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_01_good();
+
+	CWE667_Improper_Locking__basic_01_bad();
+	CWE667_Improper_Locking__basic_01_good();
+
+	CWE674_Uncontrolled_Recursion__infinite_recursive_call_01_bad();
+	CWE674_Uncontrolled_Recursion__infinite_recursive_call_01_good();
+
+	CWE675_Duplicate_Operations_on_Resource__fopen_01_bad();
+	CWE675_Duplicate_Operations_on_Resource__fopen_01_good();
+
+	CWE680_Integer_Overflow_to_Buffer_Overflow__malloc_connect_socket_01_bad();
+	CWE680_Integer_Overflow_to_Buffer_Overflow__malloc_connect_socket_01_good();
+
+	CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_01_bad();
+	CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_01_good();
+
+	CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_01_bad();
+	CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_01_good();
+
+	CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_01_bad();
+	CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_01_good();
+
+	CWE690_NULL_Deref_From_Return__char_calloc_01_bad();
+	CWE690_NULL_Deref_From_Return__char_calloc_01_good();
+
+	CWE758_Undefined_Behavior__char_alloca_use_01_bad();
+	CWE758_Undefined_Behavior__char_alloca_use_01_good();
+
+	CWE761_Free_Pointer_Not_at_Start_of_Buffer__char_connect_socket_01_bad();
+	CWE761_Free_Pointer_Not_at_Start_of_Buffer__char_connect_socket_01_good();
+
+	CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_01_bad();
+	CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_01_good();
+
+	CWE775_Missing_Release_of_File_Descriptor_or_Handle__fopen_no_close_01_bad();
+	CWE775_Missing_Release_of_File_Descriptor_or_Handle__fopen_no_close_01_good();
+
+	CWE78_OS_Command_Injection__char_connect_socket_execl_01_bad();
+	CWE78_OS_Command_Injection__char_connect_socket_execl_01_good();
+
+	CWE789_Uncontrolled_Mem_Alloc__malloc_char_connect_socket_01_bad();
+	CWE789_Uncontrolled_Mem_Alloc__malloc_char_connect_socket_01_good();
+
+	CWE832_Unlock_of_Resource_That_is_Not_Locked__basic_01_bad();
+	CWE832_Unlock_of_Resource_That_is_Not_Locked__basic_01_good();
+
+	CWE835_Infinite_Loop__do_01_bad();
+	CWE835_Infinite_Loop__do_01_good();
+
+	CWE843_Type_Confusion__char_01_bad();
+	CWE843_Type_Confusion__char_01_good();
+
+	return 0;
+}
