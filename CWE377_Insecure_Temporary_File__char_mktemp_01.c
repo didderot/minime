@@ -16,14 +16,7 @@ Template File: point-flaw-01.tmpl.c
 #include "std_testcase.h"
 
 #include <wchar.h>
-#ifndef _WIN32
 #include <unistd.h>
-#endif
-
-#define OPEN open
-#define CLOSE close
-#define MKTEMP mktemp
-#define MKSTEMP mkstemp
 
 #ifndef OMITBAD
 
@@ -33,18 +26,18 @@ void CWE377_Insecure_Temporary_File__char_mktemp_01_bad()
         char * filename;
         char tmpl[] = "fnXXXXXX";
         int fileDesc;
-        filename = MKTEMP(tmpl);
+        filename = mktemp(tmpl);
         if (filename == NULL)
         {
             exit(1);
         }
         printLine(filename);
         /* FLAW: Open a temporary file using open() and flags that do not prevent a race condition */
-        fileDesc = OPEN(filename, O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+        fileDesc = open(filename, O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
         if (fileDesc != -1)
         {
             printLine("Temporary file was opened...now closing file");
-            CLOSE(fileDesc);
+            close(fileDesc);
         }
     }
 }
@@ -59,12 +52,12 @@ static void good1()
         char filename[] = "/tmp/fileXXXXXX"; // mutable store for filename
         // FIX: Use mkstemp(). This is not a perfect solution, since file
         // names are too predictable, but it is a vast improvement.
-        int fileDesc = MKSTEMP(filename);
+        int fileDesc = mkstemp(filename);
         printLine(filename);
         if (fileDesc != -1)
         {
             printLine("Temporary file was opened...now closing file");
-            CLOSE(fileDesc);
+            close(fileDesc);
         }
     }
 }

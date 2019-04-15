@@ -19,7 +19,6 @@ Template File: sources-sink-01.tmpl.c
 #include <wchar.h>
 
 #define NEW_PATH "/bin"
-#define PUTENV putenv
 
 #include <sys/types.h>
 #include <sys/socket.h>
@@ -28,7 +27,6 @@ Template File: sources-sink-01.tmpl.c
 #include <unistd.h>
 #define INVALID_SOCKET -1
 #define SOCKET_ERROR -1
-#define CLOSE_SOCKET close
 #define SOCKET int
 
 #define TCP_PORT 27015
@@ -88,11 +86,11 @@ void CWE427_Uncontrolled_Search_Path_Element__char_connect_socket_01_bad()
         while (0);
         if (connectSocket != INVALID_SOCKET)
         {
-            CLOSE_SOCKET(connectSocket);
+            close(connectSocket);
         }
     }
     /* POTENTIAL FLAW: Set a new environment variable with a path that is possibly insecure */
-    PUTENV(data);
+    putenv(data);
 }
 
 #endif /* OMITBAD */
@@ -108,7 +106,7 @@ static void goodG2B()
     /* FIX: Set the path as the "system" path */
     strcat(data, NEW_PATH);
     /* POTENTIAL FLAW: Set a new environment variable with a path that is possibly insecure */
-    PUTENV(data);
+    putenv(data);
 }
 
 void CWE427_Uncontrolled_Search_Path_Element__char_connect_socket_01_good()

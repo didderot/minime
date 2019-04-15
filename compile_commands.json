@@ -1,0 +1,1080 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE467_Use_of_sizeof_on_Pointer_Type__char_01.o",
+            "CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE78_OS_Command_Injection__char_connect_socket_execl_01.o",
+            "CWE78_OS_Command_Injection__char_connect_socket_execl_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE78_OS_Command_Injection__char_connect_socket_execl_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE377_Insecure_Temporary_File__char_mktemp_01.o",
+            "CWE377_Insecure_Temporary_File__char_mktemp_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE377_Insecure_Temporary_File__char_mktemp_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE124_Buffer_Underwrite__CWE839_fgets_01.o",
+            "CWE124_Buffer_Underwrite__CWE839_fgets_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE124_Buffer_Underwrite__CWE839_fgets_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE690_NULL_Deref_From_Return__char_calloc_01.o",
+            "CWE690_NULL_Deref_From_Return__char_calloc_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE690_NULL_Deref_From_Return__char_calloc_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE606_Unchecked_Loop_Condition__char_console_01.o",
+            "CWE606_Unchecked_Loop_Condition__char_console_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE606_Unchecked_Loop_Condition__char_console_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_01.o",
+            "CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE404_Improper_Resource_Shutdown__open_fclose_01.o",
+            "CWE404_Improper_Resource_Shutdown__open_fclose_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE404_Improper_Resource_Shutdown__open_fclose_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE832_Unlock_of_Resource_That_is_Not_Locked__basic_01.o",
+            "CWE832_Unlock_of_Resource_That_is_Not_Locked__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE832_Unlock_of_Resource_That_is_Not_Locked__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE427_Uncontrolled_Search_Path_Element__char_connect_socket_01.o",
+            "CWE427_Uncontrolled_Search_Path_Element__char_connect_socket_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE427_Uncontrolled_Search_Path_Element__char_connect_socket_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_01.o",
+            "CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE196_Unsigned_to_Signed_Conversion_Error__basic_01.o",
+            "CWE196_Unsigned_to_Signed_Conversion_Error__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE196_Unsigned_to_Signed_Conversion_Error__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE391_Unchecked_Error_Condition__sqrt_01.o",
+            "CWE391_Unchecked_Error_Condition__sqrt_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE391_Unchecked_Error_Condition__sqrt_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.o",
+            "CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE605_Multiple_Binds_Same_Port__basic_01.o",
+            "CWE605_Multiple_Binds_Same_Port__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE605_Multiple_Binds_Same_Port__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE190_Integer_Overflow__char_fscanf_add_01.o",
+            "CWE190_Integer_Overflow__char_fscanf_add_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE190_Integer_Overflow__char_fscanf_add_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE483_Incorrect_Block_Delimitation__if_without_braces_multiple_lines_01.o",
+            "CWE483_Incorrect_Block_Delimitation__if_without_braces_multiple_lines_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE483_Incorrect_Block_Delimitation__if_without_braces_multiple_lines_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_01.o",
+            "CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE464_Addition_of_Data_Structure_Sentinel__basic_01.o",
+            "CWE464_Addition_of_Data_Structure_Sentinel__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE464_Addition_of_Data_Structure_Sentinel__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE369_Divide_by_Zero__float_rand_01.o",
+            "CWE369_Divide_by_Zero__float_rand_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE369_Divide_by_Zero__float_rand_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE843_Type_Confusion__char_01.o",
+            "CWE843_Type_Confusion__char_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE843_Type_Confusion__char_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE457_Use_of_Uninitialized_Variable__char_pointer_01.o",
+            "CWE457_Use_of_Uninitialized_Variable__char_pointer_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE457_Use_of_Uninitialized_Variable__char_pointer_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE775_Missing_Release_of_File_Descriptor_or_Handle__fopen_no_close_01.o",
+            "CWE775_Missing_Release_of_File_Descriptor_or_Handle__fopen_no_close_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE775_Missing_Release_of_File_Descriptor_or_Handle__fopen_no_close_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE546_Suspicious_Comment__BUG_01.o",
+            "CWE546_Suspicious_Comment__BUG_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE546_Suspicious_Comment__BUG_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE127_Buffer_Underread__CWE839_listen_socket_01.o",
+            "CWE127_Buffer_Underread__CWE839_listen_socket_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE127_Buffer_Underread__CWE839_listen_socket_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "std_thread.o",
+            "testcasesupport/std_thread.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "testcasesupport/std_thread.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE680_Integer_Overflow_to_Buffer_Overflow__malloc_connect_socket_01.o",
+            "CWE680_Integer_Overflow_to_Buffer_Overflow__malloc_connect_socket_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE680_Integer_Overflow_to_Buffer_Overflow__malloc_connect_socket_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE480_Use_of_Incorrect_Operator__basic_01.o",
+            "CWE480_Use_of_Incorrect_Operator__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE480_Use_of_Incorrect_Operator__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE476_NULL_Pointer_Dereference__binary_if_01.o",
+            "CWE476_NULL_Pointer_Dereference__binary_if_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE476_NULL_Pointer_Dereference__binary_if_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE835_Infinite_Loop__do_01.o",
+            "CWE835_Infinite_Loop__do_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE835_Infinite_Loop__do_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE126_Buffer_Overread__CWE129_fscanf_01.o",
+            "CWE126_Buffer_Overread__CWE129_fscanf_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE126_Buffer_Overread__CWE129_fscanf_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "main.o",
+            "main.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "main.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE252_Unchecked_Return_Value__char_fread_01.o",
+            "CWE252_Unchecked_Return_Value__char_fread_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE252_Unchecked_Return_Value__char_fread_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE121_Stack_Based_Buffer_Overflow__CWE129_connect_socket_01.o",
+            "CWE121_Stack_Based_Buffer_Overflow__CWE129_connect_socket_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE121_Stack_Based_Buffer_Overflow__CWE129_connect_socket_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE561_Dead_Code__return_before_code_01.o",
+            "CWE561_Dead_Code__return_before_code_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE561_Dead_Code__return_before_code_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE401_Memory_Leak__char_calloc_01.o",
+            "CWE401_Memory_Leak__char_calloc_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE401_Memory_Leak__char_calloc_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE675_Duplicate_Operations_on_Resource__fopen_01.o",
+            "CWE675_Duplicate_Operations_on_Resource__fopen_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE675_Duplicate_Operations_on_Resource__fopen_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE758_Undefined_Behavior__char_alloca_use_01.o",
+            "CWE758_Undefined_Behavior__char_alloca_use_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE758_Undefined_Behavior__char_alloca_use_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE478_Missing_Default_Case_in_Switch__basic_01.o",
+            "CWE478_Missing_Default_Case_in_Switch__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE478_Missing_Default_Case_in_Switch__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE197_Numeric_Truncation_Error__int_fgets_to_short_01.o",
+            "CWE197_Numeric_Truncation_Error__int_fgets_to_short_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE197_Numeric_Truncation_Error__int_fgets_to_short_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE571_Expression_Always_True__global_01.o",
+            "CWE571_Expression_Always_True__global_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE571_Expression_Always_True__global_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE416_Use_After_Free__malloc_free_char_01.o",
+            "CWE416_Use_After_Free__malloc_free_char_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE416_Use_After_Free__malloc_free_char_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE563_Unused_Variable__unused_global_value_01.o",
+            "CWE563_Unused_Variable__unused_global_value_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE563_Unused_Variable__unused_global_value_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_01.o",
+            "CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE475_Undefined_Behavior_for_Input_to_API__char_01.o",
+            "CWE475_Undefined_Behavior_for_Input_to_API__char_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE475_Undefined_Behavior_for_Input_to_API__char_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_01.o",
+            "CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE123_Write_What_Where_Condition__connect_socket_01.o",
+            "CWE123_Write_What_Where_Condition__connect_socket_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE123_Write_What_Where_Condition__connect_socket_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE415_Double_Free__malloc_free_char_01.o",
+            "CWE415_Double_Free__malloc_free_char_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE415_Double_Free__malloc_free_char_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE367_TOC_TOU__access_01.o",
+            "CWE367_TOC_TOU__access_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE367_TOC_TOU__access_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE665_Improper_Initialization__char_cat_01.o",
+            "CWE665_Improper_Initialization__char_cat_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE665_Improper_Initialization__char_cat_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE459_Incomplete_Cleanup__char_01.o",
+            "CWE459_Incomplete_Cleanup__char_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE459_Incomplete_Cleanup__char_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE667_Improper_Locking__basic_01.o",
+            "CWE667_Improper_Locking__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE667_Improper_Locking__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE364_Signal_Handler_Race_Condition__basic_01.o",
+            "CWE364_Signal_Handler_Race_Condition__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE364_Signal_Handler_Race_Condition__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE482_Comparing_Instead_of_Assigning__basic_01.o",
+            "CWE482_Comparing_Instead_of_Assigning__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE482_Comparing_Instead_of_Assigning__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE188_Reliance_on_Data_Memory_Layout__modify_local_01.o",
+            "CWE188_Reliance_on_Data_Memory_Layout__modify_local_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE188_Reliance_on_Data_Memory_Layout__modify_local_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE191_Integer_Underflow__char_fscanf_multiply_01.o",
+            "CWE191_Integer_Underflow__char_fscanf_multiply_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE191_Integer_Underflow__char_fscanf_multiply_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE134_Uncontrolled_Format_String__char_connect_socket_fprintf_01.o",
+            "CWE134_Uncontrolled_Format_String__char_connect_socket_fprintf_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE134_Uncontrolled_Format_String__char_connect_socket_fprintf_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE562_Return_of_Stack_Variable_Address__return_buf_01.o",
+            "CWE562_Return_of_Stack_Variable_Address__return_buf_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE562_Return_of_Stack_Variable_Address__return_buf_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE570_Expression_Always_False__global_01.o",
+            "CWE570_Expression_Always_False__global_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE570_Expression_Always_False__global_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE195_Signed_to_Unsigned_Conversion_Error__connect_socket_memcpy_01.o",
+            "CWE195_Signed_to_Unsigned_Conversion_Error__connect_socket_memcpy_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE195_Signed_to_Unsigned_Conversion_Error__connect_socket_memcpy_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE789_Uncontrolled_Mem_Alloc__malloc_char_connect_socket_01.o",
+            "CWE789_Uncontrolled_Mem_Alloc__malloc_char_connect_socket_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE789_Uncontrolled_Mem_Alloc__malloc_char_connect_socket_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE617_Reachable_Assertion__connect_socket_01.o",
+            "CWE617_Reachable_Assertion__connect_socket_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE617_Reachable_Assertion__connect_socket_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE674_Uncontrolled_Recursion__infinite_recursive_call_01.o",
+            "CWE674_Uncontrolled_Recursion__infinite_recursive_call_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE674_Uncontrolled_Recursion__infinite_recursive_call_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "io.o",
+            "testcasesupport/io.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "testcasesupport/io.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_01.o",
+            "CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE481_Assigning_Instead_of_Comparing__basic_01.o",
+            "CWE481_Assigning_Instead_of_Comparing__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE481_Assigning_Instead_of_Comparing__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE398_Poor_Code_Quality__addition_01.o",
+            "CWE398_Poor_Code_Quality__addition_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE398_Poor_Code_Quality__addition_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE253_Incorrect_Check_of_Function_Return_Value__char_fwrite_01.o",
+            "CWE253_Incorrect_Check_of_Function_Return_Value__char_fwrite_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE253_Incorrect_Check_of_Function_Return_Value__char_fwrite_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE366_Race_Condition_Within_Thread__global_int_01.o",
+            "CWE366_Race_Condition_Within_Thread__global_int_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE366_Race_Condition_Within_Thread__global_int_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE400_Resource_Exhaustion__connect_socket_sleep_01.o",
+            "CWE400_Resource_Exhaustion__connect_socket_sleep_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE400_Resource_Exhaustion__connect_socket_sleep_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_01.o",
+            "CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE479_Signal_Handler_Use_of_Non_Reentrant_Function__basic_01.o",
+            "CWE479_Signal_Handler_Use_of_Non_Reentrant_Function__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE479_Signal_Handler_Use_of_Non_Reentrant_Function__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE194_Unexpected_Sign_Extension__connect_socket_malloc_01.o",
+            "CWE194_Unexpected_Sign_Extension__connect_socket_malloc_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE194_Unexpected_Sign_Extension__connect_socket_malloc_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE484_Omitted_Break_Statement_in_Switch__basic_01.o",
+            "CWE484_Omitted_Break_Statement_in_Switch__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE484_Omitted_Break_Statement_in_Switch__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE587_Assignment_of_Fixed_Address_to_Pointer__basic_01.o",
+            "CWE587_Assignment_of_Fixed_Address_to_Pointer__basic_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE587_Assignment_of_Fixed_Address_to_Pointer__basic_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE761_Free_Pointer_Not_at_Start_of_Buffer__char_connect_socket_01.o",
+            "CWE761_Free_Pointer_Not_at_Start_of_Buffer__char_connect_socket_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE761_Free_Pointer_Not_at_Start_of_Buffer__char_connect_socket_01.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-g",
+            "-I",
+            "testcasesupport/",
+            "-o",
+            "CWE426_Untrusted_Search_Path__char_popen_01.o",
+            "CWE426_Untrusted_Search_Path__char_popen_01.c"
+        ],
+        "directory": "/home/gent_ci/Dokumente/data/julietmini",
+        "file": "CWE426_Untrusted_Search_Path__char_popen_01.c"
+    }
+]

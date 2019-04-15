@@ -44,7 +44,7 @@ void CWE367_TOC_TOU__access_01_bad()
             filename[strlen(filename)-1] = '\0'; /* remove newline */
         }
         /* FLAW: Open and write to the file after checking the status information */
-        if (ACCESS(filename, W_OK) == -1)
+        if (access(filename, W_OK) == -1)
         {
             exit(1);
         }
@@ -53,13 +53,13 @@ void CWE367_TOC_TOU__access_01_bad()
         {
             exit(1);
         }
-        if (WRITE(fileDesc, BAD_SINK_STRING, strlen(BAD_SINK_STRING)) == -1)
+        if (write(fileDesc, BAD_SINK_STRING, strlen(BAD_SINK_STRING)) == -1)
         {
             exit(1);
         }
         if (fileDesc != -1)
         {
-            CLOSE(fileDesc);
+            close(fileDesc);
         }
     }
 }
@@ -84,18 +84,18 @@ static void good1()
             filename[strlen(filename)-1] = '\0'; /* remove newline */
         }
         /* FIX: Open the file without checking the status information */
-        fileDesc  = OPEN(filename, O_RDWR);
+        fileDesc  = open(filename, O_RDWR);
         if (fileDesc == -1)
         {
             exit(1);
         }
-        if (WRITE(fileDesc, GOOD_SINK_STRING, strlen(GOOD_SINK_STRING)) == -1)
+        if (write(fileDesc, GOOD_SINK_STRING, strlen(GOOD_SINK_STRING)) == -1)
         {
             exit(1);
         }
         if (fileDesc != -1)
         {
-            CLOSE(fileDesc);
+            close(fileDesc);
         }
     }
 }

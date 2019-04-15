@@ -36,7 +36,6 @@ static linkedList *linkedListPrev, *linkedListNext;
 #include <unistd.h>
 #define INVALID_SOCKET -1
 #define SOCKET_ERROR -1
-#define CLOSE_SOCKET close
 #define SOCKET int
 
 #define TCP_PORT 27015
@@ -84,7 +83,7 @@ void CWE123_Write_What_Where_Condition__connect_socket_01_bad()
         while (0);
         if (connectSocket != INVALID_SOCKET)
         {
-            CLOSE_SOCKET(connectSocket);
+            close(connectSocket);
         }
     }
     /* POTENTIAL FLAW: The following removes 'a' from the list.  Because of the possible overflow this

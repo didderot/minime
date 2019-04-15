@@ -24,7 +24,6 @@ Template File: sources-sinks-01.tmpl.c
 #include <unistd.h>
 #define INVALID_SOCKET -1
 #define SOCKET_ERROR -1
-#define CLOSE_SOCKET close
 #define SOCKET int
 
 #define TCP_PORT 27015
@@ -74,7 +73,7 @@ void CWE121_Stack_Based_Buffer_Overflow__CWE129_connect_socket_01_bad()
         while (0);
         if (connectSocket != INVALID_SOCKET)
         {
-            CLOSE_SOCKET(connectSocket);
+            close(connectSocket);
         }
     }
     {
@@ -174,7 +173,7 @@ static void goodB2G()
         while (0);
         if (connectSocket != INVALID_SOCKET)
         {
-            CLOSE_SOCKET(connectSocket);
+            close(connectSocket);
         }
     }
     {

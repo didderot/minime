@@ -23,7 +23,6 @@ Template File: sources-sink-01.tmpl.c
 #include <unistd.h>
 #define INVALID_SOCKET -1
 #define SOCKET_ERROR -1
-#define CLOSE_SOCKET close
 #define SOCKET int
 
 #define TCP_PORT 27015
@@ -73,7 +72,7 @@ void CWE680_Integer_Overflow_to_Buffer_Overflow__malloc_connect_socket_01_bad()
         while (0);
         if (connectSocket != INVALID_SOCKET)
         {
-            CLOSE_SOCKET(connectSocket);
+            close(connectSocket);
         }
     }
     {

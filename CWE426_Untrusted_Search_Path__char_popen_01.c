@@ -20,9 +20,6 @@ Template File: sources-sink-01.tmpl.c
 #define BAD_OS_COMMAND "ls -la"
 #define GOOD_OS_COMMAND "/usr/bin/ls -la"
 
-#define POPEN popen
-#define PCLOSE pclose
-
 #ifndef OMITBAD
 
 void CWE426_Untrusted_Search_Path__char_popen_01_bad()
@@ -36,10 +33,10 @@ void CWE426_Untrusted_Search_Path__char_popen_01_bad()
         FILE *pipe;
         /* POTENTIAL FLAW: Executing the popen() function without specifying the full path to the executable
          * can allow an attacker to run their own program */
-        pipe = POPEN(data, "wb");
+        pipe = popen(data, "wb");
         if (pipe != NULL)
         {
-            PCLOSE(pipe);
+            pclose(pipe);
         }
     }
 }
@@ -60,10 +57,10 @@ static void goodG2B()
         FILE *pipe;
         /* POTENTIAL FLAW: Executing the popen() function without specifying the full path to the executable
          * can allow an attacker to run their own program */
-        pipe = POPEN(data, "wb");
+        pipe = popen(data, "wb");
         if (pipe != NULL)
         {
-            PCLOSE(pipe);
+            pclose(pipe);
         }
     }
 }
