@@ -1,7 +1,7 @@
 PROJECT_ROOT = $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 CC=gcc
 CXX=g++
-CFLAGS=-g
+CFLAGS=-g -Wall -Wextra
 LFLAGS=-pthread -lm
 OBJS=$(patsubst %.c,%.o,$(wildcard *.c))
 
