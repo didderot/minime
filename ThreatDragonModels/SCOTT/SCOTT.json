@@ -1,15 +1,22 @@
 {
   "summary": {
-    "title": "SCOTT"
+    "title": "SCOTT",
+    "owner": "",
+    "description": ""
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "me"
+      }
+    ],
     "diagrams": [
       {
         "title": "use case 1",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0
       }
-    ]
+    ],
+    "reviewer": ""
   }
 }
